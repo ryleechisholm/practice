@@ -1,0 +1,23 @@
+#icons {
+    position: absolute;
+    width: 100%;
+    top: 79vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#icons i {
+    font-size: 64px;
+    transition: color 0.2s ease-out, font-size 0.2s ease-out, transform 0.2s ease-out;
+    margin: 0px 3vw;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    padding: 0;
+}
+
+#icons i:hover {
+    color: #3077D9;
+    font-size: 80px;
+    transform: translateY(-8px)
+}
